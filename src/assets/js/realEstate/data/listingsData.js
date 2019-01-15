@@ -1,6 +1,6 @@
 var listingsData = [
   {
-    name:"John Samson",
+    name:"Jdsfsdfsdf",
     postedDate: "04/03/2018",
     address: '97 Toronto Avenue',
     city: 'Toronto',
