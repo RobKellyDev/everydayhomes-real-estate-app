@@ -1,6 +1,6 @@
 var listingsData = [
   {
-    name:"Jdsfsdfsdf",
+    name:"John Stone",
     postedDate: "04/03/2018",
     address: '97 Toronto Avenue',
     city: 'Toronto',
@@ -13,16 +13,16 @@ var listingsData = [
       'gym'
     ],
     homeType: 'Apartment',
-    image: 'https://s3.ca-central-1.amazonaws.com/reactrealestateapp/toronto389x286.jpeg',
-    imageLong: 'https://s3.ca-central-1.amazonaws.com/reactrealestateapp/toronto1553x289.jpeg',
-    userImage: 'https://s3.ca-central-1.amazonaws.com/reactrealestateapp/johnsamson50x50.jpeg',
-    userImageLong: 'https://s3.ca-central-1.amazonaws.com/reactrealestateapp/johnsamson80x80.jpeg'
+    image: 'https://s3.ca-central-1.amazonaws.com/reactrealestateapp/toronto390x290.jpg',
+    imageLong: 'https://s3.ca-central-1.amazonaws.com/reactrealestateapp/toronto1550x290.jpg',
+    userImage: 'https://s3.ca-central-1.amazonaws.com/reactrealestateapp/johnstone50x50.jpeg',
+    userImageLong: 'https://s3.ca-central-1.amazonaws.com/reactrealestateapp/johnstone80x80.jpeg'
   },
   {
     name:"Nina Smith",
     postedDate: "06/08/2018",
     address: '540 New York Road',
-    city: 'Ridgewood',
+    city: 'New York City',
     state: 'NY',
     rooms: 1,
     price: 620000,
@@ -32,8 +32,8 @@ var listingsData = [
       'gym'
     ],
     homeType: 'Studio',
-    image: 'https://s3.ca-central-1.amazonaws.com/reactrealestateapp/toronto389x286.jpeg',
-    imageLong: 'https://s3.ca-central-1.amazonaws.com/reactrealestateapp/toronto1553x289.jpeg',
+    image: 'https://s3.ca-central-1.amazonaws.com/reactrealestateapp/newyork390x290.jpg',
+    imageLong: 'https://s3.ca-central-1.amazonaws.com/reactrealestateapp/newyork1550x290.jpg',
     userImage: 'https://s3.ca-central-1.amazonaws.com/reactrealestateapp/ninasmith50x50.jpeg',
     userImageLong: 'https://s3.ca-central-1.amazonaws.com/reactrealestateapp/ninasmith80x80.jpeg'
   },
@@ -51,10 +51,10 @@ var listingsData = [
       'pool'
     ],
     homeType: 'House',
-    image: 'https://s3.ca-central-1.amazonaws.com/reactrealestateapp/toronto389x286.jpeg',
-    imageLong: 'https://s3.ca-central-1.amazonaws.com/reactrealestateapp/toronto1553x289.jpeg',
-    userImage: 'https://s3.ca-central-1.amazonaws.com/reactrealestateapp/ninasmith50x50.jpeg',
-    userImageLong: 'https://s3.ca-central-1.amazonaws.com/reactrealestateapp/ninasmith80x80.jpeg'
+    image: 'https://s3.ca-central-1.amazonaws.com/reactrealestateapp/sanfrancisco390x290.jpg',
+    imageLong: 'https://s3.ca-central-1.amazonaws.com/reactrealestateapp/sanfrancisco1550x290.jpg',
+    userImage: 'https://s3.ca-central-1.amazonaws.com/reactrealestateapp/garyarnold50x50.jpg',
+    userImageLong: 'https://s3.ca-central-1.amazonaws.com/reactrealestateapp/garyarnold80x80.jpg'
   },
   {
     name:"Rose Lucero",
@@ -70,10 +70,10 @@ var listingsData = [
       'gym'
     ],
     homeType: 'Studio',
-    image: 'https://s3.ca-central-1.amazonaws.com/reactrealestateapp/toronto389x286.jpeg',
-    imageLong: 'https://s3.ca-central-1.amazonaws.com/reactrealestateapp/toronto1553x289.jpeg',
-    userImage: 'https://s3.ca-central-1.amazonaws.com/reactrealestateapp/ninasmith50x50.jpeg',
-    userImageLong: 'https://s3.ca-central-1.amazonaws.com/reactrealestateapp/ninasmith80x80.jpeg'
+    image: 'https://s3.ca-central-1.amazonaws.com/reactrealestateapp/vancouver390x290.jpg',
+    imageLong: 'https://s3.ca-central-1.amazonaws.com/reactrealestateapp/vancouver1550x290.jpg',
+    userImage: 'https://s3.ca-central-1.amazonaws.com/reactrealestateapp/roselucero50x50.jpg',
+    userImageLong: 'https://s3.ca-central-1.amazonaws.com/reactrealestateapp/roselucero80x80.jpg'
   },
   {
     name:"Cory Kirkpatrick",
@@ -89,10 +89,10 @@ var listingsData = [
       'gym'
     ],
     homeType: 'House',
-    image: 'https://s3.ca-central-1.amazonaws.com/reactrealestateapp/toronto389x286.jpeg',
-    imageLong: 'https://s3.ca-central-1.amazonaws.com/reactrealestateapp/toronto1553x289.jpeg',
-    userImage: 'https://s3.ca-central-1.amazonaws.com/reactrealestateapp/johnsamson50x50.jpeg',
-    userImageLong: 'https://s3.ca-central-1.amazonaws.com/reactrealestateapp/johnsamson80x80.jpeg'
+    image: 'https://s3.ca-central-1.amazonaws.com/reactrealestateapp/chicago390x290.jpg',
+    imageLong: 'https://s3.ca-central-1.amazonaws.com/reactrealestateapp/chicago1550x290.jpg',
+    userImage: 'https://s3.ca-central-1.amazonaws.com/reactrealestateapp/corykirkpatrick50x50.jpg',
+    userImageLong: 'https://s3.ca-central-1.amazonaws.com/reactrealestateapp/corykirkpatrick80x80.jpg'
   },
   {
     name:"Martina Salter",
@@ -108,13 +108,13 @@ var listingsData = [
       'bar'
     ],
     homeType: 'Apartment',
-    image: 'https://s3.ca-central-1.amazonaws.com/reactrealestateapp/toronto389x286.jpeg',
-    imageLong: 'https://s3.ca-central-1.amazonaws.com/reactrealestateapp/toronto1553x289.jpeg',
-    userImage: 'https://s3.ca-central-1.amazonaws.com/reactrealestateapp/ninasmith50x50.jpeg',
-    userImageLong: 'https://s3.ca-central-1.amazonaws.com/reactrealestateapp/ninasmith80x80.jpeg'
+    image: 'https://s3.ca-central-1.amazonaws.com/reactrealestateapp/miami390x290.jpg',
+    imageLong: 'https://s3.ca-central-1.amazonaws.com/reactrealestateapp/miami1550x290.jpg',
+    userImage: 'https://s3.ca-central-1.amazonaws.com/reactrealestateapp/martinasalter50x50.jpg',
+    userImageLong: 'https://s3.ca-central-1.amazonaws.com/reactrealestateapp/martinasalter80x80.jpg'
   },
   {
-    name:"Christian Gonzalez",
+    name:"Maddie Redmon",
     postedDate: "28/01/2017",
     address: '95 Texas Road',
     city: 'Austin',
@@ -127,17 +127,17 @@ var listingsData = [
       'pool'
     ],
     homeType: 'Ranch',
-    image: 'https://s3.ca-central-1.amazonaws.com/reactrealestateapp/toronto389x286.jpeg',
-    imageLong: 'https://s3.ca-central-1.amazonaws.com/reactrealestateapp/toronto1553x289.jpeg',
-    userImage: 'https://s3.ca-central-1.amazonaws.com/reactrealestateapp/johnsamson50x50.jpeg',
-    userImageLong: 'https://s3.ca-central-1.amazonaws.com/reactrealestateapp/johnsamson80x80.jpeg'
+    image: 'https://s3.ca-central-1.amazonaws.com/reactrealestateapp/texas390x290.jpg',
+    imageLong: 'https://s3.ca-central-1.amazonaws.com/reactrealestateapp/texas1550x290.jpg',
+    userImage: 'https://s3.ca-central-1.amazonaws.com/reactrealestateapp/maddieredmon50x50.jpg',
+    userImageLong: 'https://s3.ca-central-1.amazonaws.com/reactrealestateapp/maddieredmon80x80.jpg'
   },
   {
     name:"Brandan Whitworth",
     postedDate: "11/06/2016",
-    address: '567 Arizona Avenue',
-    city: 'Pheonix',
-    state: 'AZ',
+    address: '567 Alberta Avenue',
+    city: 'Calgary',
+    state: 'AB',
     rooms: 3,
     price: 7220000,
     floorSpace: 6300,
@@ -146,10 +146,10 @@ var listingsData = [
       'study'
     ],
     homeType: 'Ranch',
-    image: 'https://s3.ca-central-1.amazonaws.com/reactrealestateapp/toronto389x286.jpeg',
-    imageLong: 'https://s3.ca-central-1.amazonaws.com/reactrealestateapp/toronto1553x289.jpeg',
-    userImage: 'https://s3.ca-central-1.amazonaws.com/reactrealestateapp/johnsamson50x50.jpeg',
-    userImageLong: 'https://s3.ca-central-1.amazonaws.com/reactrealestateapp/johnsamson80x80.jpeg'
+    image: 'https://s3.ca-central-1.amazonaws.com/reactrealestateapp/alberta390x290.jpg',
+    imageLong: 'https://s3.ca-central-1.amazonaws.com/reactrealestateapp/alberta1550x290.jpg',
+    userImage: 'https://s3.ca-central-1.amazonaws.com/reactrealestateapp/brandanwhitworth50x50.jpg',
+    userImageLong: 'https://s3.ca-central-1.amazonaws.com/reactrealestateapp/brandanwhitworth80x80.jpg'
   }
 ]
 
