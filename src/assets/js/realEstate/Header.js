@@ -1,26 +1,24 @@
 import React, { Component} from 'react'
 import ReactDOM from 'react-dom'
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 
 export default class Header extends Component {
   constructor () {
     super()
   }
-  clickedBtn = () => {
-    console.log('swag')
-  }
+
   render () {
     return (
       <header>
         <div className="leftNav">
-          <a href="#" className="logo">
-            <i className="fa fa-home"></i>
-            <p>Everydayhomes.com</p>
-          </a>
-
+          <Link to="/" className="logo">
+              <i className="fa fa-home"></i>
+              <p>Everydayhomes.com</p>
+          </Link>
         </div>
         <div className="rightNav">
           <nav>
-            <a href="#">Buy</a>
+            <Link to="/properties">Buy</Link>
             <a href="#">Sell</a>
             <a href="#">Rent</a>
             <a href="#">About</a>

@@ -1,12 +1,11 @@
 import React, {Component} from 'react';
 import ReactDOM from 'react-dom';
+
 class Landing extends Component {
-
-
-render(){
+  render(){
     return(
       <div id='landing'>
-      
+
       </div>
     )
   }
