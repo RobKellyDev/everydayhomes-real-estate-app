@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom'
 import Header from './assets/js/realEstate/Header.js';
 import Filter from './assets/js/realEstate/Filter.js';
 import Listings from './assets/js/realEstate/Listings.js';
+import Landing from './assets/js/realEstate/Landing.js';
 import listingsData from './assets/js/realEstate/data/listingsData.js';
 import './assets/sass/main.scss';
 
@@ -177,6 +178,7 @@ class App extends Component {
       <div>
         <Header />
         <section id="content-area">
+          <Landing />
           <Filter change={this.change} globalState={this.state} populateAction={this.populateForms}/>
           <Listings listingsData={this.state.filteredData} globalState={this.state} change={this.change} changeView={this.changeView}/>
         </section>

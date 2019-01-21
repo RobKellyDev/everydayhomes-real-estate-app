@@ -14,8 +14,9 @@ export default class Header extends Component {
         <div className="leftNav">
           <a href="#" className="logo">
             <i className="fa fa-home"></i>
+            <p>Everydayhomes.com</p>
           </a>
-          <p>Everyday Homes</p>
+
         </div>
         <div className="rightNav">
           <nav>
