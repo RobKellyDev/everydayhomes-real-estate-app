@@ -1,16 +1,23 @@
 #landing{
   min-height: 100vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(./background.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
 }
-.landingBackground{
-   background-repeat: no-repeat;
-   background-size: cover;
-   background-position: center;
-   background-attachment: fixed;
+
+.landingHeader{
+  padding-top: 40vh;
+  text-align: center;
+  color: white;
+  font-size: 4rem;
+  letter-spacing: 4px;
+}
+
+.landingButtonStyle{
+  margin-top: 5%;
+  font-size: 1.3rem;
 }
 
 #content-area{
