@@ -1,7 +1,7 @@
 import React, { Component} from 'react'
 import ReactDOM from 'react-dom'
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
-import logo from "../../images/logo2.jpg";
+import logo from "../../images/logo3.png";
 
 export default class Header extends Component {
   constructor () {
