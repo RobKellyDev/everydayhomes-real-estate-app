@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import '../../sass/main.scss';
 
 
 class Landing extends Component {
@@ -15,7 +16,38 @@ class Landing extends Component {
           </div>
         </div>
         <div className="container">
-          <p className="ok"> OK </p>
+          <div className="row">
+            <div className="col-sm-6">
+              <div className="statsBackground">
+                <div className="statsTop">
+                  Average home price sold in past 30 days.
+                </div>
+                <div className="statsMiddle">
+                  <h1 className="statsMiddleBigNumber"><span className="statsMiddleDollar">$</span>689</h1>
+                </div>
+                <div className="statsBottom">
+                  <i className="fas fa-arrow-up statsBottomStyle"><span className="statsBottomNumbers">2.84% 6 Months</span></i>
+                  <i className="fas fa-arrow-down statsBottomStyle"><span className="statsBottomNumbers">2.13% 1 Year</span></i>
+                </div>
+              </div>
+            </div>
+            <div className="col-sm-6">
+              <div className="statsBackground">
+                <div className="statsTop">
+                  Average values for the past year.
+                </div>
+                <div className="statsRow1">
+                  Number of Transactions: <span className="statsValues"> 348 Sold / 548 Rented</span>
+                </div>
+                <div className="statsRow2">
+                  Average rental price: <span className="statsValues"> $2209 / 620 sqft</span>
+                </div>
+                <div className="statsRow1">
+                  Average sold price: <span className="statsValues"> $598,600 / 712 sqft</span>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     )

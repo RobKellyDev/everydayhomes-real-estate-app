@@ -333,3 +333,60 @@ select {
   display: inline-block;
   vertical-align: top;
 }
+
+.statsBackground{
+  background-color: $burgundy;
+  color: white;
+  margin-top: 30px;
+}
+
+.statsTop{
+  background-color: $burgundyHover;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.statsRow1{
+  background-color: $burgundy;
+  padding: 20px;
+  width: 100%;
+}
+
+.statsRow2{
+  background-color: $burgundyHover;
+  padding: 20px;
+  width: 100%;
+}
+
+.statsValues{
+  float: right;
+}
+.statsMiddle{
+  padding: 33px 0px;
+  text-align: center;
+}
+
+.statsMiddleBigNumber{
+  font-size: 3rem;
+}
+
+.statsMiddleDollar{
+  font-size: 1.5rem;
+}
+
+.statsBottom{
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.statsBottomStyle{
+  margin-right: 10px;
+  margin-left: 10px;
+  font-size: 1.5rem;
+}
+
+.statsBottomNumbers{
+  padding-left: 6px;
+  font-size: 1.2rem;
+  font-family: verdana;
+}
