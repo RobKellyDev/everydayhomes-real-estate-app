@@ -105,7 +105,7 @@ select {
       margin-bottom: 20px;
       font-weight: 100;
       color: $lightgrey;
-      font-family: 'roboto';
+      font-family: Roboto;
     }
   }
   .sortby-area{
@@ -337,24 +337,26 @@ select {
 .statsBackground{
   background-color: $burgundy;
   color: white;
-  margin-top: 30px;
+  margin-top: 50px;
 }
 
 .statsTop{
   background-color: $burgundyHover;
   text-align: center;
-  padding: 20px 0;
+  padding: 30px 0;
 }
 
 .statsRow1{
   background-color: $burgundy;
-  padding: 20px;
+  // color: $greytext;
+  padding: 30px;
   width: 100%;
 }
 
 .statsRow2{
   background-color: $burgundyHover;
-  padding: 20px;
+  // color: $greytext;
+  padding: 30px;
   width: 100%;
 }
 
@@ -362,16 +364,16 @@ select {
   float: right;
 }
 .statsMiddle{
-  padding: 33px 0px;
+  padding: 51px 0px;
   text-align: center;
 }
 
 .statsMiddleBigNumber{
-  font-size: 3rem;
+  font-size: 4.5rem;
 }
 
 .statsMiddleDollar{
-  font-size: 1.5rem;
+  font-size: 2.5rem;
 }
 
 .statsBottom{
@@ -388,5 +390,22 @@ select {
 .statsBottomNumbers{
   padding-left: 6px;
   font-size: 1.2rem;
-  font-family: verdana;
+  font-family: lato;
+  font-weight: 400;
+}
+
+.steps{
+  text-align: center;
+}
+
+.steps i{
+  font-size: 4.5rem;
+  margin: 120px 0px 50px 0px;
+  color: $burgundy;
+}
+
+.steps p{
+  color: $greytext;
+  font-weight: 300;
+  margin-bottom: 60px;
 }
