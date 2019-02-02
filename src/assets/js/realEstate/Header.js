@@ -11,18 +11,20 @@ export default class Header extends Component {
   render () {
     return (
       <header>
-        <div className="leftNav">
-          <Link to="/" className="logo">
-              <img src={logo} />
-          </Link>
-        </div>
-        <div className="rightNav">
-          <nav>
-            <Link to="/properties">Buy</Link>
-            <a href="#">Sell</a>
-            <a href="#">Rent</a>
-            <a href="#">About</a>
-            <a href="#">Contact</a>
+        <div>
+          <nav className="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+            <Link to="/"><img src={logo} className="logo"/></Link>
+            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span className="navbar-toggler-icon"></span>
+            </button>
+            <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div className="navbar-nav navbar ml-auto">
+                <Link to="/properties"><div className="nav-item nav-link active navbarItemStyle">Buy <span className="sr-only">(current)</span></div></Link>
+                <Link to="/properties"><div className="nav-item nav-link active navbarItemStyle">Rent <span className="sr-only">(current)</span></div></Link>
+                <Link to="/properties"><div className="nav-item nav-link active navbarItemStyle">About <span className="sr-only">(current)</span></div></Link>
+                <Link to="/properties"><div className="nav-item nav-link active navbarItemStyle">Contact <span className="sr-only">(current)</span></div></Link>
+              </div>
+            </div>
           </nav>
         </div>
       </header>
