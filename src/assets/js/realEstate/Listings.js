@@ -17,7 +17,7 @@ export default class Listings extends Component {
       if(this.props.globalState.view == 'box'){
         //Box view for properties
           return (
-            <div className="col-md-3" key={index}>
+            <div className="col-md-3 propertiesStyle" key={index}>
              <div className="listing">
                <div className="listing-img" style={{background: `url("${listing.image}") no-repeat center center`} }>
                  <span className="address">{listing.address}</span>

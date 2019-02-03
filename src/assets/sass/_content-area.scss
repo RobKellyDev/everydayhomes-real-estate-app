@@ -295,7 +295,10 @@ select {
     cursor: pointer;
   }
 }
+.propertiesStyle{
+  display: inline-block;
 
+}
 #pagination{
   text-align: center;
   .pages{
@@ -317,21 +320,6 @@ select {
       }
     }
   }
-}
-
-//Same functionality as Bootstrap grid system
-.col-md-3{
-  display: inline-block;
-  vertical-align: top;
-}
-
-.col-md-9{
-  display: inline-block;
-}
-
-.col-lg-6{
-  display: inline-block;
-  vertical-align: top;
 }
 
 .statsBackground{
@@ -408,4 +396,33 @@ select {
   color: $greytext;
   font-weight: 300;
   margin-bottom: 60px;
+}
+
+.footerStyle{
+  color: white;
+  background-color: $darkgrey;
+  text-align: center;
+}
+.footerStyle h4{
+  padding: 10px;
+  margin: 0;
+}
+.footerContactStyle{
+  display: block;
+  font-size: 2rem;
+  padding: 5px;
+}
+.footerText{
+  color: white;
+  padding: 5px;
+  font-size: 0.9rem;
+}
+.footerText:hover {
+  text-decoration: none;
+  color: $burgundyHover;
+}
+.footerTextNolink{
+  color: white;
+  padding: 9px;
+  font-size: 0.9rem;
 }

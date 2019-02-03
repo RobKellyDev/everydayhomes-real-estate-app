@@ -17,12 +17,10 @@ class App extends Component {
       <Router>
         <div>
           <Header />
-          <div>
             <section id="content-area">
                <Route exact path="/" component={Landing} />
                <Route exact path="/properties" component={Properties} />
             </section>
-          </div>
           <Footer />
         </div>
       </Router>
