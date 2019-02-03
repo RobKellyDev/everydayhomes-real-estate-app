@@ -19,10 +19,11 @@ export default class Header extends Component {
             </button>
             <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
               <div className="navbar-nav navbar ml-auto">
-                <Link to="/properties"><div className="nav-item nav-link active navbarItemStyle">Buy <span className="sr-only">(current)</span></div></Link>
-                <Link to="/properties"><div className="nav-item nav-link active navbarItemStyle">Rent <span className="sr-only">(current)</span></div></Link>
-                <Link to="/properties"><div className="nav-item nav-link active navbarItemStyle">About <span className="sr-only">(current)</span></div></Link>
-                <Link to="/properties"><div className="nav-item nav-link active navbarItemStyle">Contact <span className="sr-only">(current)</span></div></Link>
+                <Link to="/properties"><div className="nav-item nav-link active">Buy <span className="sr-only">(current)</span></div></Link>
+                <Link to="/properties"><div className="nav-item nav-link active">Sell <span className="sr-only">(current)</span></div></Link>
+                <Link to="/properties"><div className="nav-item nav-link active">Rent <span className="sr-only">(current)</span></div></Link>
+                <Link to="/properties"><div className="nav-item nav-link active">About <span className="sr-only">(current)</span></div></Link>
+                <Link to="/properties"><div className="nav-item nav-link active">Contact <span className="sr-only">(current)</span></div></Link>
               </div>
             </div>
           </nav>

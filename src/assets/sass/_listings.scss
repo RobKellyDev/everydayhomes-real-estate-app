@@ -2,6 +2,9 @@ header{
   .logo {
     width: 150px;
   }
+  .navbar{
+    padding: 5px;
+  }
   .navbar-nav{
     a {
       color: black;
@@ -12,6 +15,7 @@ header{
       border-bottom: 3px solid transparent;
       &:hover{
         border-color: $burgundyHover;
+        font-weight: 600;
       }
     }
   }
