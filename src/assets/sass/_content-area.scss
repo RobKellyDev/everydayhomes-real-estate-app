@@ -1,3 +1,29 @@
+//---------------HEADER-------------------
+header{
+  margin-bottom: 50px;
+  .logo {
+    width: 150px;
+  }
+  .navbar{
+    padding: 5px;
+  }
+  .navbar-nav{
+    a {
+      color: black;
+      text-decoration: none;
+      text-transform: uppercase;
+      transition: background 0.3s ease-in-out;
+      letter-spacing: 1px;
+      border-bottom: 3px solid transparent;
+      &:hover{
+        border-color: $burgundyHover;
+        font-weight: 600;
+      }
+    }
+  }
+}
+
+//---------------LANDING-------------------
 #landing{
   min-height: 100vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/background.jpg);
@@ -19,11 +45,90 @@
   margin: 50px 10px 10px 0px;
   font-size: 1.2rem;
 }
+
 .landingButtonStyle i{
   font-size: 1.3rem;
   margin-right: 5px;
 }
 
+.statsBackground{
+  background-color: $burgundy;
+  color: white;
+  margin-top: 50px;
+}
+
+.statsTop{
+  background-color: $burgundyHover;
+  text-align: center;
+  padding: 30px 0;
+}
+
+.statsRow1{
+  background-color: $burgundy;
+  // color: $greytext;
+  padding: 30px;
+  width: 100%;
+}
+
+.statsRow2{
+  background-color: $burgundyHover;
+  // color: $greytext;
+  padding: 30px;
+  width: 100%;
+}
+
+.statsValues{
+  float: right;
+}
+
+.statsMiddle{
+  padding: 51px 0px;
+  text-align: center;
+}
+
+.statsMiddleBigNumber{
+  font-size: 4.5rem;
+}
+
+.statsMiddleDollar{
+  font-size: 2.5rem;
+}
+
+.statsBottom{
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.statsBottomStyle{
+  margin-right: 10px;
+  margin-left: 10px;
+  font-size: 1.5rem;
+}
+
+.statsBottomNumbers{
+  padding-left: 6px;
+  font-size: 1.2rem;
+  font-family: lato;
+  font-weight: 400;
+}
+
+.steps{
+  text-align: center;
+}
+
+.steps i{
+  font-size: 4.5rem;
+  margin: 120px 0px 50px 0px;
+  color: $burgundy;
+}
+
+.steps p{
+  color: $greytext;
+  font-weight: 300;
+  margin-bottom: 60px;
+}
+
+//---------------LISTINGS-------------------
 #content-area{
   overflow: auto;
   width: 100%;
@@ -299,6 +404,7 @@ select {
   display: inline-block;
 
 }
+
 #pagination{
   text-align: center;
   .pages{
@@ -322,82 +428,7 @@ select {
   }
 }
 
-.statsBackground{
-  background-color: $burgundy;
-  color: white;
-  margin-top: 50px;
-}
-
-.statsTop{
-  background-color: $burgundyHover;
-  text-align: center;
-  padding: 30px 0;
-}
-
-.statsRow1{
-  background-color: $burgundy;
-  // color: $greytext;
-  padding: 30px;
-  width: 100%;
-}
-
-.statsRow2{
-  background-color: $burgundyHover;
-  // color: $greytext;
-  padding: 30px;
-  width: 100%;
-}
-
-.statsValues{
-  float: right;
-}
-.statsMiddle{
-  padding: 51px 0px;
-  text-align: center;
-}
-
-.statsMiddleBigNumber{
-  font-size: 4.5rem;
-}
-
-.statsMiddleDollar{
-  font-size: 2.5rem;
-}
-
-.statsBottom{
-  text-align: center;
-  padding-bottom: 30px;
-}
-
-.statsBottomStyle{
-  margin-right: 10px;
-  margin-left: 10px;
-  font-size: 1.5rem;
-}
-
-.statsBottomNumbers{
-  padding-left: 6px;
-  font-size: 1.2rem;
-  font-family: lato;
-  font-weight: 400;
-}
-
-.steps{
-  text-align: center;
-}
-
-.steps i{
-  font-size: 4.5rem;
-  margin: 120px 0px 50px 0px;
-  color: $burgundy;
-}
-
-.steps p{
-  color: $greytext;
-  font-weight: 300;
-  margin-bottom: 60px;
-}
-
+//---------------FOOTER------------------------
 .footerStyle{
   color: white;
   background-color: $darkgrey;
