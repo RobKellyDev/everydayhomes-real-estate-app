@@ -38,10 +38,10 @@ export default class Footer extends Component {
             </div>
             <div className="col-lg-3">
               <h4>Contact Us</h4>
-              <i className="fab fa-facebook footerContactStyle"></i>
-              <i className="fab fa-twitter-square footerContactStyle"></i>
-              <i className="fab fa-instagram footerContactStyle"></i>
-              <i className="fas fa-envelope footerContactStyle"></i>
+              <Link to="/" className="footerContactStyle"><i className="fab fa-facebook"></i></Link>
+              <Link to="/" className="footerContactStyle"><i className="fab fa-twitter-square"></i></Link>
+              <Link to="/" className="footerContactStyle"><i className="fab fa-instagram"></i></Link>
+              <Link to="/" className="footerContactStyle"><i className="fas fa-envelope"></i></Link>
             </div>
           </div>
         </div>

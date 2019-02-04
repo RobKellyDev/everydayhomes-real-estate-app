@@ -22,8 +22,8 @@ export default class Header extends Component {
                 <Link to="/properties"><div className="nav-item nav-link active">Buy <span className="sr-only">(current)</span></div></Link>
                 <Link to="/properties"><div className="nav-item nav-link active">Sell <span className="sr-only">(current)</span></div></Link>
                 <Link to="/properties"><div className="nav-item nav-link active">Rent <span className="sr-only">(current)</span></div></Link>
-                <Link to="/properties"><div className="nav-item nav-link active">About <span className="sr-only">(current)</span></div></Link>
-                <Link to="/properties"><div className="nav-item nav-link active">Contact <span className="sr-only">(current)</span></div></Link>
+                <Link to="/about"><div className="nav-item nav-link active">About <span className="sr-only">(current)</span></div></Link>
+                <Link to="/contact"><div className="nav-item nav-link active">Contact <span className="sr-only">(current)</span></div></Link>
               </div>
             </div>
           </nav>
