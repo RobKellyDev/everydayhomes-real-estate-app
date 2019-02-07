@@ -117,15 +117,49 @@ header{
 }
 
 .steps i{
-  font-size: 4.5rem;
-  margin: 120px 0px 50px 0px;
+  font-size: 5rem;
+  margin: 175px 0px 50px 0px;
   color: $burgundy;
 }
 
 .steps p{
   color: $greytext;
   font-weight: 300;
-  margin-bottom: 60px;
+  font-size: 1.2rem;
+  margin-bottom: 175px;
+}
+
+.infoStyle{
+  background-color: $grey;
+}
+
+
+.infoText{
+  text-align: center;
+  color: #555;
+}
+.infoText h3{
+  padding: 20px;
+  font-size: 1.3rem;
+}
+.infoText p{
+  padding: 20px;
+  letter-spacing: 1px;
+  line-height: 1.5;
+}
+
+.infoText a button{
+  margin: 20px;
+  padding: 15px;
+  border-radius: 50%;
+}
+
+.infoImg img{
+  width: 100%;
+}
+
+.col-sm-5 {
+  padding: 0;
 }
 
 //---------------LISTINGS-------------------

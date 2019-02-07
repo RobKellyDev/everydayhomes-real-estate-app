@@ -2,6 +2,9 @@ import React, {Component} from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import '../../sass/main.scss';
+import neighbourhoodguide from '../../../assets/images/neighbourhoodguide.jpg';
+import graph from '../../../assets/images/graph.jpg';
+import agents from '../../../assets/images/agents.jpg';
 
 
 class Landing extends Component {
@@ -61,6 +64,30 @@ class Landing extends Component {
                 <i className="fas fa-users"></i>
                 <p>3. Contact one of our helpful agents</p>
               </div>
+          </div>
+          <div className="row infoStyle">
+            <div className="col-sm-5 infoImg">
+              <img src={neighbourhoodguide} />
+            </div>
+            <div className="col-sm-7 my-auto infoText">
+                <h3>Neighbourhood Guide</h3>
+                <p>Find your perfect home and learn about nearby schools, public transport and grocery stores family with our neighbourhood guide.</p>
+                <a><button type="button" className="btn btn-danger btn-large">Learn More</button></a>
+            </div>
+            <div className="col-sm-7 my-auto infoText">
+                <h3>Latest Home Statistics </h3>
+                <p>Get the latest statistics on condos and townhouses so that you can make the best decision when budgeting for your new home.</p>
+            </div>
+            <div className="col-sm-5 infoImg">
+              <img src={graph} />
+            </div>
+            <div className="col-sm-5 infoImg">
+              <img src={agents} />
+            </div>
+            <div className="col-sm-7 my-auto infoText">
+                <h3>Our Agents Are Here To Help</h3>
+                <p>Ready to look for a home? Our professional agents can help you find your perfect home and guide you through the whole process.</p>
+            </div>
           </div>
         </div>
       </div>
