@@ -1,4 +1,4 @@
-//---------------HEADER-------------------
+//-------------------------------HEADER------------------------------------
 header{
   margin-bottom: 50px;
   .logo {
@@ -23,10 +23,10 @@ header{
   }
 }
 
-//---------------LANDING-------------------
+//------------------------------------LANDING-----------------------------------
 #landing{
-  min-height: 100vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/background.jpg);
+  min-height: 75vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url(../images/background12.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -34,15 +34,15 @@ header{
 }
 
 .landingHeader{
-  padding-top: 40vh;
+  padding-top: 30vh;
   text-align: center;
   color: white;
   font-size: 3rem;
-  letter-spacing: 3px;
+  letter-spacing: 6px;
 }
 
 .landingButtonStyle{
-  margin: 50px 10px 10px 0px;
+  margin: 60px 10px 10px 0px;
   font-size: 1.2rem;
 }
 
@@ -51,6 +51,7 @@ header{
   margin-right: 5px;
 }
 
+//-------Stats Section-----
 .statsBackground{
   background-color: $burgundy;
   color: white;
@@ -129,8 +130,10 @@ header{
   margin-bottom: 175px;
 }
 
+//---------INFO SECTION------------
 .infoStyle{
   background-color: $grey;
+  margin-bottom: 50px;
 }
 
 
@@ -162,7 +165,7 @@ header{
   padding: 0;
 }
 
-//---------------LISTINGS-------------------
+//----------------------------LISTINGS--------------------------------
 #content-area{
   overflow: auto;
   width: 100%;
@@ -461,8 +464,17 @@ select {
     }
   }
 }
+//----------------------------------ABOUT------------------------------------
 
-//---------------FOOTER------------------------
+#about{
+  min-height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/background17.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+//----------------------------------FOOTER------------------------------------
 .footerStyle{
   color: white;
   background-color: $darkgrey;
