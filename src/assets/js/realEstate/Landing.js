@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import '../../sass/main.scss';
 import neighbourhoodguide from '../../../assets/images/neighbourhoodguide.jpg';
 import graph from '../../../assets/images/graph.jpg';
-import agents from '../../../assets/images/agents.jpg';
+import agents from '../../../assets/images/contactagent.jpg';
 
 
 class Landing extends Component {
@@ -70,8 +70,8 @@ class Landing extends Component {
               <img src={neighbourhoodguide} />
             </div>
             <div className="col-sm-7 my-auto infoText">
-                <h3>Neighbourhood Guide</h3>
-                <p>Find your perfect home and learn about nearby schools, public transport and grocery stores family with our neighbourhood guide.</p>
+                <h3>Area Guide</h3>
+                <p>Find your perfect home and learn about nearby schools, public transport and grocery stores family with our area guide.</p>
                 <a><button type="button" className="btn btn-danger btn-large">Learn More</button></a>
             </div>
             <div className="col-sm-7 my-auto infoText">
