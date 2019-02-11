@@ -468,12 +468,39 @@ select {
 //----------------------------------ABOUT------------------------------------
 
 #about{
-  min-height: 100vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/background17.jpg);
+  min-height: 80vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/background17.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+}
+
+.aboutHeaderTitle{
+  padding-top: 30vh;
+  text-align: center;
+  color: white;
+  font-size: 3.5rem;
+  letter-spacing: 6px;
+  text-shadow: 2px 2px #000;
+}
+
+.aboutHeaderText{
+  text-align: center;
+  color: white;
+  padding: 25px 200px;
+  line-height: 1.2;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+}
+
+.allpanels{
+  margin-top: 40px;
+  margin-bottom: 400px;
+}
+.panel{
+  height: 300px;
+  background-color: $grey;
 }
 
 //----------------------------------CONTACT------------------------------------
