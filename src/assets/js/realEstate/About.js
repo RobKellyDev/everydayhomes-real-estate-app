@@ -14,9 +14,18 @@ export default class About extends Component{
         </div>
         <div className="container">
           <div className="row allpanels">
-            <div className="col-sm-4"><div className="panel"></div></div>
-            <div className="col-sm-4"><div className="panel"></div></div>
-            <div className="col-sm-4"><div className="panel"></div></div>
+            <div className="col-sm-4">
+              <div className="panel"><div className="panelIcons"><i className="fas fa-chart-line"></i></div></div>
+              <div className="panelBottom">The latest home prices</div>
+            </div>
+            <div className="col-sm-4">
+              <div className="panel"><div className="panelIcons"><i className="fas fa-home"></i></div></div>
+              <div className="panelBottom">The newest homes on the market</div>
+            </div>
+            <div className="col-sm-4">
+              <div className="panel"><div className="panelIcons"><i className="fas fa-users"></i></div></div>
+              <div className="panelBottom">Our agents are here to help</div>
+            </div>
           </div>
         </div>
       </div>
