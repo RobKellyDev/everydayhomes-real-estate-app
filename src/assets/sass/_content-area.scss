@@ -496,7 +496,7 @@ select {
 
 .allpanels{
   margin-top: 40px;
-  margin-bottom: 400px;
+  margin-bottom: 70px;
 }
 .panel{
   height: 300px;
@@ -519,6 +519,20 @@ select {
   letter-spacing: 1px;
 }
 
+.ourAgentsHeader {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  margin-bottom: 60px;
+}
+
+.agentRow{
+  margin-bottom: 20px;
+}
+.agentImage{
+  width: 100%;
+  vertical-align: bottom;
+}
 //----------------------------------CONTACT------------------------------------
 #contact{
   margin-top: 30px;
