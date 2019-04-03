@@ -43,6 +43,11 @@ export default class Footer extends Component {
               <Link to="/" className="footerContactStyle"><i className="fab fa-instagram"></i></Link>
               <Link to="/" className="footerContactStyle"><i className="fas fa-envelope"></i></Link>
             </div>
+            <div className="col-lg-12">
+              <div className="footerlink">
+                Designed and Developed by Dylan Hedges (visit <a href="http://dylanhedges.com" target="_blank">dylanhedges.com</a>)
+              </div>
+            </div>
           </div>
         </div>
       </footer>
