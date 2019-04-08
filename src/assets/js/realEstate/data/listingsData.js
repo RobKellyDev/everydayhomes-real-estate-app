@@ -1,3 +1,36 @@
+import toronto390x290 from '../../../../assets/images/toronto390x290.jpg';
+import toronto1550x290 from '../../../../assets/images/toronto1550x290.jpg';
+import johnstone50x50 from '../../../../assets/images/johnstone50x50.jpeg';
+import johnstone80x80 from '../../../../assets/images/johnstone80x80.jpeg';
+import newyork390x290 from '../../../../assets/images/newyork390x290.jpg';
+import newyork1550x290 from '../../../../assets/images/newyork1550x290.jpg';
+import ninasmith50x50 from '../../../../assets/images/ninasmith50x50.jpeg';
+import ninasmith80x80 from '../../../../assets/images/ninasmith80x80.jpeg';
+import sanfrancisco390x290 from '../../../../assets/images/sanfrancisco390x290.jpg';
+import sanfrancisco1550x290 from '../../../../assets/images/sanfrancisco1550x290.jpg';
+import garyarnold50x50 from '../../../../assets/images/garyarnold50x50.jpg';
+import garyarnold80x80 from '../../../../assets/images/garyarnold80x80.jpg';
+import vancouver390x290 from '../../../../assets/images/vancouver390x290.jpg';
+import vancouver1550x290 from '../../../../assets/images/vancouver1550x290.jpg';
+import roselucero50x50 from '../../../../assets/images/roselucero50x50.jpg';
+import roselucero80x80 from '../../../../assets/images/roselucero80x80.jpg';
+import chicago390x290 from '../../../../assets/images/chicago390x290.jpg';
+import chicago1550x290 from '../../../../assets/images/chicago1550x290.jpg';
+import corykirkpatrick50x50 from '../../../../assets/images/corykirkpatrick50x50.jpg';
+import corykirkpatrick80x80 from '../../../../assets/images/corykirkpatrick80x80.jpg';
+import miami390x290 from '../../../../assets/images/miami390x290.jpg';
+import miami1550x290 from '../../../../assets/images/miami1550x290.jpg';
+import martinasalter50x50 from '../../../../assets/images/martinasalter50x50.jpg';
+import martinasalter80x80 from '../../../../assets/images/martinasalter80x80.jpg';
+import texas390x290 from '../../../../assets/images/texas390x290.jpg';
+import texas1550x290 from '../../../../assets/images/texas1550x290.jpg';
+import maddieredmon50x50 from '../../../../assets/images/maddieredmon50x50.jpg';
+import maddieredmon80x80 from '../../../../assets/images/maddieredmon80x80.jpg';
+import alberta390x290 from '../../../../assets/images/alberta390x290.jpg';
+import alberta1550x290 from '../../../../assets/images/alberta1550x290.jpg';
+import brandanwhitworth50x50 from '../../../../assets/images/brandanwhitworth50x50.jpg';
+import brandanwhitworth80x80 from '../../../../assets/images/brandanwhitworth80x80.jpg';
+
 var listingsData = [
   {
     name:"John Stone",
@@ -13,10 +46,10 @@ var listingsData = [
       'gym'
     ],
     homeType: 'Apartment',
-    image: 'https://s3.ca-central-1.amazonaws.com/reactrealestateapp/toronto390x290.jpg',
-    imageLong: 'https://s3.ca-central-1.amazonaws.com/reactrealestateapp/toronto1550x290.jpg',
-    userImage: 'https://s3.ca-central-1.amazonaws.com/reactrealestateapp/johnstone50x50.jpeg',
-    userImageLong: 'https://s3.ca-central-1.amazonaws.com/reactrealestateapp/johnstone80x80.jpeg'
+    image: toronto390x290,
+    imageLong: toronto1550x290,
+    userImage: johnstone50x50,
+    userImageLong: johnstone80x80
   },
   {
     name:"Nina Smith",
@@ -32,10 +65,10 @@ var listingsData = [
       'gym'
     ],
     homeType: 'Studio',
-    image: 'https://s3.ca-central-1.amazonaws.com/reactrealestateapp/newyork390x290.jpg',
-    imageLong: 'https://s3.ca-central-1.amazonaws.com/reactrealestateapp/newyork1550x290.jpg',
-    userImage: 'https://s3.ca-central-1.amazonaws.com/reactrealestateapp/ninasmith50x50.jpeg',
-    userImageLong: 'https://s3.ca-central-1.amazonaws.com/reactrealestateapp/ninasmith80x80.jpeg'
+    image: newyork390x290,
+    imageLong: newyork1550x290,
+    userImage: ninasmith50x50,
+    userImageLong: ninasmith80x80
   },
   {
     name:"Gary Arnold",
@@ -51,10 +84,10 @@ var listingsData = [
       'pool'
     ],
     homeType: 'House',
-    image: 'https://s3.ca-central-1.amazonaws.com/reactrealestateapp/sanfrancisco390x290.jpg',
-    imageLong: 'https://s3.ca-central-1.amazonaws.com/reactrealestateapp/sanfrancisco1550x290.jpg',
-    userImage: 'https://s3.ca-central-1.amazonaws.com/reactrealestateapp/garyarnold50x50.jpg',
-    userImageLong: 'https://s3.ca-central-1.amazonaws.com/reactrealestateapp/garyarnold80x80.jpg'
+    image: sanfrancisco390x290,
+    imageLong: sanfrancisco1550x290,
+    userImage: garyarnold50x50,
+    userImageLong: garyarnold80x80
   },
   {
     name:"Rose Lucero",
@@ -70,10 +103,10 @@ var listingsData = [
       'gym'
     ],
     homeType: 'Studio',
-    image: 'https://s3.ca-central-1.amazonaws.com/reactrealestateapp/vancouver390x290.jpg',
-    imageLong: 'https://s3.ca-central-1.amazonaws.com/reactrealestateapp/vancouver1550x290.jpg',
-    userImage: 'https://s3.ca-central-1.amazonaws.com/reactrealestateapp/roselucero50x50.jpg',
-    userImageLong: 'https://s3.ca-central-1.amazonaws.com/reactrealestateapp/roselucero80x80.jpg'
+    image: vancouver390x290,
+    imageLong: vancouver1550x290,
+    userImage: roselucero50x50,
+    userImageLong: roselucero80x80
   },
   {
     name:"Cory Kirkpatrick",
@@ -89,10 +122,10 @@ var listingsData = [
       'gym'
     ],
     homeType: 'House',
-    image: 'https://s3.ca-central-1.amazonaws.com/reactrealestateapp/chicago390x290.jpg',
-    imageLong: 'https://s3.ca-central-1.amazonaws.com/reactrealestateapp/chicago1550x290.jpg',
-    userImage: 'https://s3.ca-central-1.amazonaws.com/reactrealestateapp/corykirkpatrick50x50.jpg',
-    userImageLong: 'https://s3.ca-central-1.amazonaws.com/reactrealestateapp/corykirkpatrick80x80.jpg'
+    image: chicago390x290,
+    imageLong: chicago1550x290,
+    userImage: corykirkpatrick50x50,
+    userImageLong: corykirkpatrick80x80
   },
   {
     name:"Martina Salter",
@@ -108,10 +141,10 @@ var listingsData = [
       'bar'
     ],
     homeType: 'Apartment',
-    image: 'https://s3.ca-central-1.amazonaws.com/reactrealestateapp/miami390x290.jpg',
-    imageLong: 'https://s3.ca-central-1.amazonaws.com/reactrealestateapp/miami1550x290.jpg',
-    userImage: 'https://s3.ca-central-1.amazonaws.com/reactrealestateapp/martinasalter50x50.jpg',
-    userImageLong: 'https://s3.ca-central-1.amazonaws.com/reactrealestateapp/martinasalter80x80.jpg'
+    image: miami390x290,
+    imageLong: miami1550x290,
+    userImage: martinasalter50x50,
+    userImageLong: martinasalter80x80
   },
   {
     name:"Maddie Redmon",
@@ -127,10 +160,10 @@ var listingsData = [
       'pool'
     ],
     homeType: 'Ranch',
-    image: 'https://s3.ca-central-1.amazonaws.com/reactrealestateapp/texas390x290.jpg',
-    imageLong: 'https://s3.ca-central-1.amazonaws.com/reactrealestateapp/texas1550x290.jpg',
-    userImage: 'https://s3.ca-central-1.amazonaws.com/reactrealestateapp/maddieredmon50x50.jpg',
-    userImageLong: 'https://s3.ca-central-1.amazonaws.com/reactrealestateapp/maddieredmon80x80.jpg'
+    image: texas390x290,
+    imageLong: texas1550x290,
+    userImage: maddieredmon50x50,
+    userImageLong: maddieredmon80x80
   },
   {
     name:"Brandan Whitworth",
@@ -146,10 +179,10 @@ var listingsData = [
       'study'
     ],
     homeType: 'Ranch',
-    image: 'https://s3.ca-central-1.amazonaws.com/reactrealestateapp/alberta390x290.jpg',
-    imageLong: 'https://s3.ca-central-1.amazonaws.com/reactrealestateapp/alberta1550x290.jpg',
-    userImage: 'https://s3.ca-central-1.amazonaws.com/reactrealestateapp/brandanwhitworth50x50.jpg',
-    userImageLong: 'https://s3.ca-central-1.amazonaws.com/reactrealestateapp/brandanwhitworth80x80.jpg'
+    image: alberta390x290,
+    imageLong: alberta1550x290,
+    userImage: brandanwhitworth50x50,
+    userImageLong: brandanwhitworth80x80
   }
 ]
 
