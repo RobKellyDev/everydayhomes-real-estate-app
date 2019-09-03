@@ -168,8 +168,8 @@ header{
 
 //----------------------------LISTINGS--------------------------------
 #content-area{
-  overflow: auto;
-  width: 100%;
+  // overflow: auto;
+  // width: 100%;
   min-height: 100vh;
 }
 
@@ -179,6 +179,10 @@ header{
   // max-width: 200px;
   display: inline-block;
   float: left;
+}
+
+.filterbackground{
+  background: $grey;
 }
 
 .inside {
@@ -254,9 +258,10 @@ select {
   .sortby-area{
     margin-bottom: 20px;
     .results{
-      font-size: 0.8rem;
+      font-size: 1rem;
       color: $darkgrey;
       display: inline-block;
+      margin-bottom: 10px;
     }
     .sort-options{
       float: right;
@@ -440,6 +445,7 @@ select {
 }
 .propertiesStyle{
   display: inline-block;
+  margin-top: 10px;
 
 }
 
@@ -565,6 +571,7 @@ select {
   color: white;
   background-color: $darkgrey;
   text-align: center;
+  padding-top: 30px;
 }
 .footerStyle h4{
   padding: 10px;

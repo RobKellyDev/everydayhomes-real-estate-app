@@ -26,15 +26,19 @@ import texas390x290 from '../../../../assets/images/texas390x290.jpg';
 import texas1550x290 from '../../../../assets/images/texas1550x290.jpg';
 import maddieredmon50x50 from '../../../../assets/images/maddieredmon50x50.jpg';
 import maddieredmon80x80 from '../../../../assets/images/maddieredmon80x80.jpg';
-import alberta390x290 from '../../../../assets/images/alberta390x290.jpg';
-import alberta1550x290 from '../../../../assets/images/alberta1550x290.jpg';
+import calgary390x290 from '../../../../assets/images/calgary390x290.jpg';
+import calgary1550x290 from '../../../../assets/images/calgary1550x290.jpg';
 import brandanwhitworth50x50 from '../../../../assets/images/brandanwhitworth50x50.jpg';
 import brandanwhitworth80x80 from '../../../../assets/images/brandanwhitworth80x80.jpg';
+import ottawa390x290 from '../../../../assets/images/ottawa390x290.jpg';
+import ottawa1550x290 from '../../../../assets/images/ottawa1550x290.jpg';
+import sherriebraell50x50 from '../../../../assets/images/sherriebraell50x50.jpg';
+import sherriebraell80x80 from '../../../../assets/images/sherriebraell80x80.jpg';
 
 var listingsData = [
   {
     name:"John Stone",
-    postedDate: "04/03/2018",
+    postedDate: "04/03/2019",
     address: '97 Toronto Avenue',
     city: 'Toronto',
     state: 'ON',
@@ -72,7 +76,7 @@ var listingsData = [
   },
   {
     name:"Gary Arnold",
-    postedDate: "03/09/2016",
+    postedDate: "03/09/2019",
     address: '82 San Francisco Road',
     city: 'San Francisco',
     state: 'CA',
@@ -91,7 +95,7 @@ var listingsData = [
   },
   {
     name:"Rose Lucero",
-    postedDate: "02/02/2017",
+    postedDate: "02/02/2018",
     address: '102 Vancouver Avenue',
     city: 'Vancouver',
     state: 'BC',
@@ -110,7 +114,7 @@ var listingsData = [
   },
   {
     name:"Cory Kirkpatrick",
-    postedDate: "12/08/2017",
+    postedDate: "12/08/2019",
     address: '12 Chicago Road',
     city: 'Chicago',
     state: 'IL',
@@ -148,9 +152,9 @@ var listingsData = [
   },
   {
     name:"Maddie Redmon",
-    postedDate: "28/01/2017",
-    address: '95 Texas Road',
-    city: 'Austin',
+    postedDate: "28/01/2018",
+    address: '95 Houston Road',
+    city: 'Houston',
     state: 'TX',
     rooms: 6,
     price: 1500000,
@@ -167,8 +171,8 @@ var listingsData = [
   },
   {
     name:"Brandan Whitworth",
-    postedDate: "11/06/2016",
-    address: '567 Alberta Avenue',
+    postedDate: "11/06/2019",
+    address: '567 Calgary Avenue',
     city: 'Calgary',
     state: 'AB',
     rooms: 3,
@@ -179,10 +183,29 @@ var listingsData = [
       'study'
     ],
     homeType: 'Ranch',
-    image: alberta390x290,
-    imageLong: alberta1550x290,
+    image: calgary390x290,
+    imageLong: calgary1550x290,
     userImage: brandanwhitworth50x50,
     userImageLong: brandanwhitworth80x80
+  },
+  {
+    name:"Sherrie Braell",
+    postedDate: "21/03/2019",
+    address: '1911 Ottawa Street',
+    city: 'Ottawa',
+    state: 'ON',
+    rooms: 3,
+    price: 612000,
+    floorSpace: 4000,
+    extras: [
+      'garden',
+      'study'
+    ],
+    homeType: 'House',
+    image: ottawa390x290,
+    imageLong: ottawa1550x290,
+    userImage: sherriebraell50x50,
+    userImageLong: sherriebraell80x80
   }
 ]
 

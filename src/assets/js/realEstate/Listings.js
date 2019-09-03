@@ -11,21 +11,21 @@ export default class Listings extends Component {
     var {listingsData} = this.props;
     //"index" - passes in index number, used as the unique key for each element in the array (removes error, React uses it for updating)
     if(listingsData == undefined || listingsData.length == 0) {
-      return "Sory your filter did not match any listings."
+      return "Sorry your filter did not match any listings."
     }
     return listingsData.map((listing, index) => {
       if(this.props.globalState.view == 'box'){
         //Box view for properties
           return (
-            <div className="col-md-3 propertiesStyle" key={index}>
+            <div className="col-md-4 propertiesStyle" key={index}>
              <div className="listing">
                <div className="listing-img" style={{background: `url("${listing.image}") no-repeat center center`} }>
                  <span className="address">{listing.address}</span>
                    <div className="details">
-                     <div className="col-md-3">
+                     <div>
                       <div className="user-img" style={{background: `url("${listing.userImage}") no-repeat center center`} }></div>
                      </div>
-                     <div className="col-md-9">
+                     <div>
                        <div className="user-details">
                        <span className="user-name">{listing.name}</span>
                        <span className="post-date">{listing.postedDate}</span>

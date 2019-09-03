@@ -44,7 +44,7 @@ export default class Filter extends Component {
   //"onChange={this.props.change}" onChange is default JS method (do something on a change),in this case whenever the user makes a change execute the "change" method which is passed in as props from realEsate.js
   render () {
     return (
-      <section id="filter" className="col-2 col-sm-2 col-md-2 col-lg-2">
+      <section id="filter">
         <div className="inside">
         <label htmlFor="city" className="title">City</label>
         <select name="city" className="filters city" onChange={this.props.change}>

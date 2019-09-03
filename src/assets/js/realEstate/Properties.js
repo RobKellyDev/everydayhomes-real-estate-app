@@ -178,8 +178,14 @@ class Properties extends Component {
     return(
       <div>
         <section id="content-area">
-          <Filter change={this.change} globalState={this.state} populateAction={this.populateForms}/>
-          <Listings listingsData={this.state.filteredData} globalState={this.state} change={this.change} changeView={this.changeView}/>
+          <div className="row">
+            <div className="col-sm-12 col-md-3 filterbackground">
+              <Filter change={this.change} globalState={this.state} populateAction={this.populateForms}/>
+            </div>
+            <div className="col-sm-12 col-md-9">
+              <Listings listingsData={this.state.filteredData} globalState={this.state} change={this.change} changeView={this.changeView}/>
+            </div>
+          </div>
         </section>
       </div>
     )
