@@ -11,7 +11,6 @@ export default class Contact extends Component{
         <div className="container">
           <div className="row">
             <form className="col-sm-6">
-              <img src={logo} className="logo"/>
               <div className="contactFormText">If you have any questions or need help, please contact us using the form below.</div>
               <div className="row">
                 <div className=" col-sm-6 form-group">

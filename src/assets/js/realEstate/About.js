@@ -16,8 +16,14 @@ export default class About extends Component{
       <div>
         <div id="about">
           <div className="container">
-            <div className="aboutHeaderTitle"><h1>Why choose Everyday Homes?</h1></div>
-            <div className="aboutHeaderText"><p>Everyday Homes is one of the most popular and comprehensive real estate websites for finding homes, our up to date listings and helpful agents can assist you in finding your perfect home for you and your family.</p></div>
+            <div className="row">
+              <div className="col-sm-12">
+                <div className="aboutHeaderTitle"><h1>Why choose Everyday Homes?</h1></div>
+              </div>
+              <div className="col-sm-12">
+                <div className="aboutHeaderText"><p>Everyday Homes is one of the most popular and comprehensive real estate websites for finding homes, our up to date listings and helpful agents can assist you in finding your perfect home for you and your family.</p></div>
+              </div>
+            </div>
           </div>
         </div>
         <div className="container">

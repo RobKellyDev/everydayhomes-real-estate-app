@@ -494,10 +494,12 @@ select {
 .aboutHeaderText{
   text-align: center;
   color: white;
-  padding: 25px 200px;
-  line-height: 1.2;
+  // padding: 25px 200px;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  line-height: 1.6;
   font-size: 1.2rem;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
 }
 
 .allpanels{
@@ -557,7 +559,7 @@ select {
   width: 100%;
 }
 .contactFormText{
-  padding: 25px 0 10px 0;
+  padding: 75px 0 10px 0;
   font-size: 0.9rem;
 }
 
